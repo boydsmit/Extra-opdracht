@@ -11,4 +11,5 @@ Script_Player_Moving();
 y += jumpForceCurrent;
 x += moveSpeedCurrent;
 
+Script_player_Finish();
 Script_Player_CollisionCheck();

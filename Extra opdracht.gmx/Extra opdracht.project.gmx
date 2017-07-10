@@ -11,13 +11,10 @@
     </sprites>
     <sprites name="map">
       <sprite>sprites\spr_platform</sprite>
+      <sprite>sprites\spr_Finish</sprite>
     </sprites>
   </sprites>
-  <backgrounds name="background">
-    <backgrounds name="tiles">
-      <background>background\tile_Lava</background>
-    </backgrounds>
-  </backgrounds>
+  <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="Player">
@@ -29,6 +26,7 @@
         <script>scripts\Script_Player_Jumping.gml</script>
         <script>scripts\Script_Player_Moving.gml</script>
         <script>scripts\Script_Player_CollisionCheck.gml</script>
+        <script>scripts\Script_player_Finish.gml</script>
       </scripts>
     </scripts>
   </scripts>
@@ -37,9 +35,11 @@
       <object>objects\obj_platform</object>
     </objects>
     <object>objects\obj_Player</object>
+    <object>objects\Finish</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Lvl1</room>
+    <room>rooms\win</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
