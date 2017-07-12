@@ -1,2 +1,2 @@
-    jumpForceCurrent += jumpGravity;
+jumpForceCurrent += jumpGravity;
 
