@@ -13,6 +13,7 @@
       <sprite>sprites\spr_platform</sprite>
       <sprite>sprites\spr_Finish</sprite>
     </sprites>
+    <sprite>sprites\spr_win</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -36,6 +37,7 @@
     </objects>
     <object>objects\obj_Player</object>
     <object>objects\Finish</object>
+    <object>objects\obj_Win</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Lvl1</room>

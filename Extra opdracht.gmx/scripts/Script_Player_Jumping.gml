@@ -1,4 +1,3 @@
-
 //Jumping
 if(!jump){
     

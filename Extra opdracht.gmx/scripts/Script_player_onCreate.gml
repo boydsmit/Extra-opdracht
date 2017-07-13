@@ -4,7 +4,7 @@ moveSpeedCurrent    = 0;
 //Jumping values
 jump                = false;
 jumpForceMax        = 12;
-jumpGravity         = 0.85;
+jumpGravity         = 1;
 jumpForceCurrent    = 0;  
 
 
