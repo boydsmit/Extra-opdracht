@@ -4,6 +4,7 @@ yPrevious = y;
 Script_Player_Gravity();
 Script_Player_Jumping();
 Script_Player_Moving();
+Script_Player_Charge();
 
 
 //Counting speed

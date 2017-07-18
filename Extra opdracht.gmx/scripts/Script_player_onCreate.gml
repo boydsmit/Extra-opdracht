@@ -6,7 +6,7 @@ jump                = false;
 jumpForceMax        = 12;
 jumpGravity         = 1;
 jumpForceCurrent    = 0;  
-
+WalkDir             = 0;
 
 xPrevious           = x;
 yPrevious           = y;

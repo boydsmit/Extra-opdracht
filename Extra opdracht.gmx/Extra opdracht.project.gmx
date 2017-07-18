@@ -12,6 +12,7 @@
     <sprites name="map">
       <sprite>sprites\spr_platform</sprite>
       <sprite>sprites\spr_Finish</sprite>
+      <sprite>sprites\spr_Camera</sprite>
     </sprites>
     <sprite>sprites\spr_win</sprite>
   </sprites>
@@ -28,12 +29,14 @@
         <script>scripts\Script_Player_Moving.gml</script>
         <script>scripts\Script_Player_CollisionCheck.gml</script>
         <script>scripts\Script_player_Finish.gml</script>
+        <script>scripts\Script_Player_Charge.gml</script>
       </scripts>
     </scripts>
   </scripts>
   <objects name="objects">
     <objects name="map">
       <object>objects\obj_platform</object>
+      <object>objects\obj_Camera</object>
     </objects>
     <object>objects\obj_Player</object>
     <object>objects\Finish</object>
